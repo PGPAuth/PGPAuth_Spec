@@ -9,3 +9,8 @@ having the user choose between features only in app A and those in app B.
 
 If you create an app for a new platform, you can get a repository in the
 PGPAuth organization here on GitHub, giving your app an "official" state.
+
+## Errors, additions, ....
+
+Feel free to fork, enhance and do a pull request :)
+I will review and maybe add them :)
