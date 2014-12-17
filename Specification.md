@@ -32,7 +32,7 @@ You SHOULD only make software implementing a final version of the PGPAuth specif
 
 ## 3. Requests and Actions
 
-Requests consists of the action, followed by a colon and the current timestamp, i.e. "open:1418777888". You can split a request by the colon to get the action ("open") and the timestamp.
+Requests consists of the action, followed by a colon and the current POSIX timestamp, i.e. "open:1418777888". You can split a request by the colon to get the action ("open") and the timestamp.
 The timestamp MUST be UTC, so users can issue requests to servers in another timezone. Server-software SHOULD give the administrator a way to set the maximum difference between the time on the server and the timestamp received by the user.
 
 Actions are currently specified, there are only two:
