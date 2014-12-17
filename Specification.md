@@ -54,7 +54,7 @@ The Request is signed and transferred OpenPGP format. User-software MUST send th
 Server-software SHOULD accept binary-type signatures.
 
 It is RECOMMENDED to disallow keys smaller than 2048 bit and user-software with key-generation SHOULD use 4096 bit as default key-length.
-Sever-software MUST support RSA-signatures and SHOULD support as many OpenPGP-defined algorithms as possible.
+Sever-software MUST support RSA-signatures and MAY support as many non-deprecated and secure OpenPGP-defined algorithms as possible.
 
 
 
