@@ -41,6 +41,8 @@ Actions are currently specified, there are only two:
 
 The user-software MUST send the action in lowercase, the server-software SHOULD accept mixed-case actions (be strict in what you send but tolerant in what you receive).
 
+Server-software MUST NOT accept mulitple request with the same action and exact same timestamp signed with the same key.
+
 ## 4. Signing
 
 The Request is signed and transferred OpenPGP format. User-software MUST send the signed request with ASCII-Armor (not binary) and you SHOULD do a cleartext-signature (the plain request should be readable).
