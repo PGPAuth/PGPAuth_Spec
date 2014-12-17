@@ -50,7 +50,7 @@ per action and key (same-action requests by user x need n seconds between them) 
 
 ## 4. Signing
 
-The Request is signed and transferred OpenPGP format. User-software MUST send the signed request with ASCII-Armor (not binary) and you SHOULD do a cleartext-signature (the plain request should be readable).
+The Request is signed and transferred in OpenPGP format. User-software MUST send the signed request with ASCII-Armor (not binary) and you SHOULD do a cleartext-signature (the plain request should be readable).
 Server-software SHOULD accept binary-type signatures.
 
 It is RECOMMENDED to disallow keys smaller than 2048 bit and user-software with key-generation SHOULD use 4096 bit as default key-length.
