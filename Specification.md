@@ -41,7 +41,7 @@ Actions are currently specified, there are only two:
 
 The user-software MUST send the action in lowercase, the server-software SHOULD accept mixed-case actions (be strict in what you send but tolerant in what you receive).
 
-Server-software MUST NOT accept mulitple request with the same action and exact same timestamp signed with the same key.
+Server-software MUST NOT accept mulitiple requests with the same action and exact same timestamp signed with the same key.
 
 Server-software SHOULD give the administrator a way to set a cooldown-time per key (requests signed by user x need n seconds between them),
 per action and key (same-action requests by user x need n seconds between them) and server-global cooldown (all requests need n seconds between them).
