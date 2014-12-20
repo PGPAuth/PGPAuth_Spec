@@ -24,7 +24,7 @@ https://github.com/PGPAuth/PGPAuth_Spec
 Using the Releases (or Tags in standard git), you can read final versions of the specification, with the version-number in the name of the tag (or release).
 Currently developed versions of the specification are refered to by their commit-hash, shortened to first 7 characters (standard in git).
 
-Full version codes are either v<Tag-Name here> or v<commit-hash here>-git. You SHOULD use the Tag-version if it is a final version.
+Full version codes are either v[Tag-Name here] or v[commit-hash here]-git. You SHOULD use the Tag-version if it is a final version.
 
 You SHOULD only make software implementing a final version of the PGPAuth specification. You MUST declare which version(s) are supported by your software.
 
